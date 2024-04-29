@@ -22,9 +22,9 @@ interface TweetDetailResponse {
   tweet: TweetDetailWithUser;
 }
 
-interface MutationResult {
-  ok: boolean;
-}
+// interface MutationResult {
+//   ok: boolean;
+// }
 
 const TweetDetail = () => {
   const { user } = useUser();
