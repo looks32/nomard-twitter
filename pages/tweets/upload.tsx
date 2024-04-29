@@ -22,7 +22,7 @@ const Upload = () => {
   const {
     register,
     handleSubmit,
-    formState: { errors },
+    //formState: { errors },
   } = useForm<UploadTweetForm>();
   const [upload, { loading, data }] =
     useMutation<UploadTweetMutation>('/api/tweets');
