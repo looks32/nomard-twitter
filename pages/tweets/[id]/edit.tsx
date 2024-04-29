@@ -23,7 +23,7 @@ const EditTweet = () => {
   const {
     register,
     handleSubmit,
-    formState: { errors },
+    //formState: { errors },
     setValue,
   } = useForm<EditTweetForm>();
   const [edit, { loading, data }] =
