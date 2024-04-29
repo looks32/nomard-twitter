@@ -18,7 +18,7 @@ export default function Input({
   register,
   required,
 }: InputProps) {
-  const [show, setShow] = useState(false);
+  const [show] = useState(false);
   return (
     <div>
       <label
