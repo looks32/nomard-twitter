@@ -32,7 +32,7 @@ const Profile = () => {
     { loading: logoutLoading, data: logoutStatus },
   ] = useMutation<MutationResult>('/api/users/logout');
   const [errorMessage, setErrorMessage] = useState('');
-  const [avatarColor, setAvatarColor] = useState(
+  const [avatarColor] = useState(
     user?.avatar,
   );
 
