@@ -2,7 +2,7 @@ import { NextApiRequest, NextApiResponse } from 'next';
 import withHandler, {
   ResponseType,
 } from '../../../libs/server/withHandler';
-import db from '../../../libs/server/db';
+//import db from '../../../libs/server/db';
 import { withApiSession } from '../../../libs/server/withSession';
 
 async function handler(
