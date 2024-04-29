@@ -1,6 +1,6 @@
 import type {
   NextRequest,
-  NextFetchEvent,
+  //NextFetchEvent,
 } from 'next/server';
 import { NextResponse } from 'next/server';
 export function middleware(
