@@ -5,7 +5,7 @@ import type {
 import { NextResponse } from 'next/server';
 export function middleware(
   req: NextRequest,
-  ev: NextFetchEvent,
+  //ev: NextFetchEvent,
 ) {
   if (!req.url.includes('/api')) {
     if (
